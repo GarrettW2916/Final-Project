@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+}
+
+figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    border: 1px solid black;
+    width: 450px;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+
+figcaption {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: .25em;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: center;
+}
+
+th.right, td.left {
+    text-align: left;
+}
+
+thead, tfoot {
+    background-color: red;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+tfoot {
+    font-weight: bold;
+    font-size: 120%;
+}
